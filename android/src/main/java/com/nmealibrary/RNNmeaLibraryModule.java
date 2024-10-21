@@ -11,8 +11,8 @@ import android.content.pm.PackageManager;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.location.GpsStatus.NmeaListener;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+import androidx.core.app.ActivityCompat; 
+import androidx.core.content.ContextCompat; 
 
 public class RNNmeaLibraryModule extends ReactContextBaseJavaModule {
 
